@@ -1,0 +1,571 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*special styling*/
+.contanier {
+    width: 1024px;
+    margin: auto;
+}
+/*Start Header*/
+header{
+    box-shadow: 2px 3px 12px;
+    z-index: 9999;
+    position: relative;
+}
+
+
+.head{
+    display: flex;
+    justify-content: space-between
+}
+
+.head .logo img{
+    width:170px;
+    margin-top: 10px;
+}
+
+
+ 
+
+.head .nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+
+.head .nav ul li {
+    padding: 28px 15px;
+    cursor: pointer;
+}
+
+.head .nav ul li:hover{
+    background-color: aqua;
+}
+
+.head .nav ul li:last-child{
+    background-color: #F18760;
+    padding: 5px 26px;
+    margin-left: 18px;
+ 
+}
+
+.head .nav ul li:last-child a {
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.head .nav ul li a {
+    text-decoration: none;
+    color: rgb(65, 61, 61);
+}
+
+
+.head .search {
+    margin-top: 21px;
+}
+.head .search span{
+    font-size: 20px;
+    padding-right: 13px;
+    font-weight: 600;
+}
+
+.icosearch{
+    display: inline-block;
+    width: 33px;
+    height: 33px;
+    background-color: #F18760;
+    border-radius: 50%;
+}
+
+
+.icosearch i{
+    padding: 8px
+}
+
+/*End Header*/
+
+/*Start Seec1*/
+
+
+
+.sec1{
+    background-image: url(../imgs/bg.jpg);
+    background-size: contain;
+    height: 600px;
+    position: relative;
+}
+
+.sec1 .contanier .flex-auto-cc{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    padding-top: 77px;
+
+}
+
+.box-s1 {
+    text-align: center;
+    width: 800px;
+    color: #fff;
+
+
+}
+
+.sec1 .contanier .flex-auto-cc h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    padding-bottom: 19px;
+
+}
+
+
+.sec1 .contanier .flex-auto-cc button{
+    margin-top: 20px;
+    padding: 11px 61px;
+    background-color: #F18760;
+    border: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+
+.sec1 .contanier .flex-auto-cc button:hover{
+    cursor: pointer;
+    rotate: 10deg;
+    margin-left: 10px;
+}
+
+.sec1 .radiobutton{
+    position: absolute;
+    bottom: 40px;
+    right: 200px;
+    display: flex;
+}
+
+.radiobutton div {
+    width: 20px;
+    height: 20px;
+    border: 3px solid #F18760;
+    border-radius: 50%;
+    background-color: aliceblue;
+    margin: 3px;
+}
+
+.radiobutton div:nth-child(3){
+    background-color: rgb(14, 142, 203);
+}
+
+
+/*End Seec1*/
+
+
+/*Start sec2*/
+
+
+
+
+
+
+
+
+.ours
+{
+    position: relative;
+
+}
+
+.ours h1{
+    position: absolute;
+    top: -128px;
+    left: 42%;
+    background-color: #1E92BE;
+    padding: 10px;
+    color: #fff;
+    width: 181px;
+    height: 47px;
+    text-align: center;
+    border-radius: 6%;
+    transition: 0.7s;
+}
+
+.ours h1:hover{
+    cursor: pointer;
+    rotate: 10deg;
+    margin-left: 10px;
+}
+
+.sec2-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 107px;
+} 
+
+
+.sec2-content div{
+    text-align: center;
+}
+
+.sec2-content div i{
+    background-color: #1E92BE;
+    padding: 50px;
+    border-radius: 50%;
+    margin-bottom: 35px;
+}
+
+
+.sec2-content div h1{
+    color:#2a2e30;
+    margin-bottom: 20px;
+}
+
+
+.sec2-content div p{
+    width: 200px;
+}
+
+
+.sec2-content div p span{
+    color:#1E92BE;
+}
+
+.sec2-content div p span:hover{
+    cursor: pointer;
+}
+
+
+/*End sec2*/
+
+
+
+
+
+
+
+
+
+/*Start sec3*/
+
+.sec3{
+    background-color: #2E3E4E;
+        margin-top: 70px;
+}
+
+ 
+.sec3-1 {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.sec3-1 h1{
+    color:#F18760;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+
+
+.sec3-1  button{
+    background-color: #1E8Fc1;
+    color: #fff;
+    border: none;
+    width: 125px;
+    height: 42px;
+    border-radius: 4px;
+    font-size: 19px;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: 0.7s;
+}
+
+.sec3-1  button:hover{
+    cursor: pointer;
+    rotate: -10deg;
+    margin-right: 10px;
+}
+
+
+.sec3-2{
+    margin-top: 40px;
+    display:flex;
+    justify-content: space-between;
+}
+
+
+.sec3-2 div{
+color: #1E8Fc1;
+}
+
+
+.sec3-2 div img{
+    width: 319px;
+    margin-right: 31px;
+    border: 15px solid #fff;
+}
+
+
+.sec3-2 div h4{
+    color: #F18760;
+    margin: 15px 0;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+
+
+.sec3-2 div p {
+    color: #fff;
+}
+
+/*End sec3*/
+
+
+
+
+/*Start sec4*/
+.sec4{
+margin-top: 35px;
+}
+
+.top-sec4{
+    text-align: center;
+
+}
+
+.top-sec4 h1{
+    color: #1E8Fc1;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.top-sec4 p{
+    margin-top: 15px;
+
+}
+
+
+.bottom-sec4{
+    margin-top: 25px;
+    display:flex
+}
+
+
+.bottom-sec4 div h3{
+    color:#1E8Fc1;
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+
+.bottom-sec4 div p {
+    margin-top: 10px;
+
+}
+
+
+.bottom-sec4 div button{
+    margin-top: 12px;
+    float: right;
+    margin-top: 12px;
+    float: right;
+    background-color: #1E8Fc1;
+    color: #fff;
+    border: none;
+    width: 83px;
+    height: 29px;
+    border-radius: 4px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.bottom-sec4 div button:hover{
+    cursor: pointer;
+
+    margin-right: 10px;
+}
+/*End sec4*/
+
+
+
+/*Start sec5*/
+.sec5 {
+    margin-top: 35px;
+
+
+}
+
+.top-sec5 {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.top-sec5 h1{
+    color: #1E8Fc1;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 30px;
+} 
+
+
+.top-sec5 p{
+    margin-top: 15px;
+
+}
+
+
+.top-sec5 h5 {
+    margin-top: 10px;
+    color: #F18760;
+    font-weight: 400;
+}
+
+.top-sec5 h5 span{
+    text-transform: capitalize;
+    font-weight: bolder;
+}
+
+.bottom-sec5 {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 35px;
+
+}
+
+.bottom-sec5 i{
+    padding: 10px;
+    text-align: center;
+    margin: 10px;
+    width: 91px;
+    height: 91px;
+    background-color:#F18760;
+    filter: grayscale(100%);
+    border-radius: 50%;
+    transition: 0.5;
+}
+
+
+.bottom-sec5 i:hover{
+    filter: none;
+    cursor: pointer;
+}
+
+
+
+
+/*End sec5*/
+
+
+
+/*Start Footer*/
+footer{
+    background-color: #2E3E4E;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 45px;
+}
+
+.footer div{
+    padding: 3px 15px;
+    width: 258px;
+}
+
+
+.footer div h2{
+    color: #F18760;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+
+
+
+
+.footer div a{
+    color: #1E8Fc1;
+    text-decoration: none;
+    display:block;
+    padding: 10px 0;
+}
+
+
+.footer div p {
+    padding: 10px 0;
+    color: #fff;
+}
+
+.footer div span{
+    padding:10px 0 ;
+}
+
+
+.footer div hr{
+    margin: 10px 0 ;
+}
+
+.footer div h4{
+    margin: 15px 0;
+}
+
+
+.emial {
+    text-transform: uppercase;
+}
+
+
+.footer div input {
+    display: block;
+    margin-bottom: 16px;
+    width: 230px;
+    height: 28px;
+    border-radius: 5px;
+    border: none;
+}
+
+.footer div button{
+    margin-top: 12px;
+    float: right;
+    margin-top: 12px;
+    background-color: #1E8Fc1;
+    color: #fff;
+    border: none;
+    width: 83px;
+    height: 29px;
+    border-radius: 4px;
+    font-size: 15px;
+    text-transform: capitalize;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+.footer div button:hover{
+    cursor: pointer;
+    rotate: -10deg;
+    margin-right: 10px;
+}
+
+
+.inline{
+    display: inline;
+}
+
+.padd{
+    margin-left: 34px;}

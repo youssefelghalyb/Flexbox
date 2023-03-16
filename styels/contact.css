@@ -1,0 +1,116 @@
+.contact1{
+    height: 300px !important;
+}
+
+
+.contact2-sec1 {
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+.contact2-sec1 h1{
+    color: #1E8Fc1;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+    font-weight: bold;
+    letter-spacing: -1px
+}
+
+
+.contact2-sec1 p{
+text-align: left;
+}
+
+
+.contact2{
+    padding: 35px 0;
+    background-color: aliceblue;
+}
+
+
+
+.contact2-sec2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.contact2-sec2 h3 span{
+    color: red;
+
+}
+
+.contact2-sec2 div h3{
+    padding: 12px 0;}
+
+
+
+.contact2-sec2 div input{
+    width: 484px;
+    height: 30px;
+}
+
+.contact2-sec2 div button{
+    background-color: #1E8Fc1;
+    color: #fff;
+    border: none;
+    width: 68px;
+    height: 23px;
+    border-radius: 4px;
+    text-transform: capitalize;
+    transition: 0.7s;
+    float: right;
+}
+.contact2-sec2 div button:hover{
+    cursor: pointer;
+    rotate: -10deg;
+    margin-right: 10px;
+}
+
+
+    .code{
+        margin-top: 20px;
+        display: flex;
+    }
+
+    .code img{
+        width: 178px;
+        margin-right: 194px;
+    }
+
+
+.code .the-code input{
+    width: 115px;
+    height: 23px;
+}
+
+
+
+.v-line{
+    width: 1px;
+    height: 487px;
+    background-color: #000;
+    margin: 0 30px;
+}
+
+
+.numbers .flexit{
+    display: flex;
+    margin: 30px 0 ;
+}
+
+
+.numbers .flexit i {
+    margin-right: 29px;
+}
+
+.numbers .flexit div{
+    width: 300px;
+}
+
+
+.numbers .flexit div h3{
+    padding: 2px 0;
+}
